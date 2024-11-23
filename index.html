@@ -1,16 +1,30 @@
-<div class="digital-clock">
-  <div class="week">
-    <div class="active">SUN</div>
-    <div>MON</div>
-    <div>TUE</div>
-    <div>WED</div>
-    <div>THU</div>
-    <div>FRI</div>
-    <div>SAT</div>
-  </div>
-  <div class="time">
-    <div class="hour">6</div>
-    <div class="dot">:</div>
-    <div class="min">12</div>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="digital-clock">
+      <div class="week" id="week">
+        <div>SUN</div>
+        <div>MON</div>
+        <div>TUE</div>
+        <div>WED</div>
+        <div>THU</div>
+        <div>FRI</div>
+        <div>SAT</div>
+      </div>
+      <div class="time">
+        <div class="hour" id="hour">00</div>
+        <div class="dot">:</div>
+        <div class="min" id="minute">00</div>
+        <div class="dot">:</div>
+        <div class="sec" id="second">00</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
